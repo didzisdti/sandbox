@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/didzisdti/sandbox.git
     targetRevision: main
-    path: apps
+    path: root/apps
 
   destination:
     server: https://kubernetes.default.svc
