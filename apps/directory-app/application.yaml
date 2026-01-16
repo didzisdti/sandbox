@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: <https://github.com/didzisdti/sandbox>
+    repoURL: https://github.com/didzisdti/sandbox
     targetRevision: main
     path: apps/directory-app
   destination:
