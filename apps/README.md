@@ -1,0 +1,1 @@
+Test repo for plain directory type deployment.
