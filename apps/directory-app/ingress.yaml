@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: directory-app
+  namespace: demo
+  annotations:
+    kubernetes.io/ingress.class: treafik
+spec:
+  rules:
+    - host: directory-app.dtikube.techinsights.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: directory-app
+                port:
+                  number: 80
