@@ -4,8 +4,9 @@ metadata:
   name: directory-app
   namespace: demo
   annotations:
-    kubernetes.io/ingress.class: treafik
+    traefik.ingress.kubernetes.io/router.entrypoints: web
 spec:
+  ingressClassName: traefik
   rules:
     - host: directory-app.dtikube.techinsights.com
       http:
