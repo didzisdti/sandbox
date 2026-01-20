@@ -7,6 +7,8 @@ spec:
   project: default
 
   source:
+    directory:
+      recurse: true
     repoURL: https://github.com/didzisdti/sandbox
     targetRevision: main
     path: apps2
